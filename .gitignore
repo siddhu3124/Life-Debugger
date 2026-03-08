@@ -1,0 +1,19 @@
+# Root level gitignore for monorepo
+
+# Ignore node_modules in root (if any)
+node_modules/
+
+# Environment files (should be in each subdirectory .gitignore but double protection)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
