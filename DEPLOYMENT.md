@@ -65,16 +65,16 @@ VITE_API_URL=https://your-backend-url.onrender.com/api
 1. Create account on [Render.com](https://render.com)
 2. Connect your GitHub repository
 3. Create a new Web Service
-4. Configure:
-   - Root Directory: `backend`
+4. **IMPORTANT** - Set Root Directory to: `backend`
+5. Configure:
    - Build Command: `npm install`
    - Start Command: `npm start`
-5. Add Environment Variables in Render dashboard:
+6. Add Environment Variables in Render dashboard:
    - `MONGODB_URI`
    - `JWT_SECRET`
    - `GEMINI_API_KEY`
    - `CLIENT_ORIGIN`
-6. Deploy
+7. Deploy
 
 ---
 
